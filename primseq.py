@@ -1,11 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # Primitive sequence analyzer
-# written by Fish http://googology.wikia.com/wiki/User:Kyodaisuu
-# http://gyafun.jp/ln/primseq.cgi
-# MIT License
-# Last update: 2018-02-18
-# Language: Python 2
+# written by Fish
+# https://github.com/kyodaisuu/primseq
 #
 # When environmental variable SCRIPT_NAME is set, it runs as a CGI program.
 # Otherwise it runs as a commandline program.
@@ -90,9 +87,7 @@ def maincgi():
 ''')
     footer = r'''<hr>
 <p style="text-align: right;"><a
-href="http://gyafun.jp/ln/primseq.cgi">Primitive sequence analyzer</a>
-(<a href="primseq.txt">Source code</a>)
-by <a href="http://googology.wikia.com/wiki/User:Kyodaisuu">Fish</a></p>
+href="https://github.com/kyodaisuu/primseq">Primitive sequence analyzer</a></p>
 </body>
 </html>
 '''
